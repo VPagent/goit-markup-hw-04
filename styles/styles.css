@@ -108,10 +108,12 @@ ul{
 
     /* герой  */
 .hero{
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
 
     background-color:var(--footer-bcg-color);
+    background-image: url('../images/herophoto.jpg ') ;
     color: #ffffff;
     text-align: center;
 }
@@ -170,6 +172,30 @@ ul{
 .peculiarities .item:nth-child(4n){
     margin-right: 0px;
 }
+.peculiarities .item::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+
+    background-color: var(--team-bcg-color);
+}
+.peculiarities .icon-antena::before{
+    background-image: url('../images/peculiarities/Group.svg');
+}
+.peculiarities .icon-clock::before{
+    background-image: url('../images/peculiarities/clock\ 1.svg ');
+}
+.peculiarities .icon-computer::before{
+    background-image: url('../images/peculiarities/diagram\ 1.svg ');
+}
+.peculiarities .icon-astronaut::before{
+    background-image: url('../images/peculiarities/astronaut\ 1.svg ');
+}
+
+
 .peculiarities-list h3{
 
     color: var(--titles-font-color);
@@ -204,6 +230,8 @@ ul{
 .doing-list .item:nth-child(3){
     margin-right: 0px;
 }
+
+
 .doing-title{
     color: var(--titles-font-color);
     font-weight: 700;
@@ -266,6 +294,38 @@ ul{
 .team-info{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.our-team-list a{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+
+}
+
+.insta{
+    background-image: url(../images/icons/insta.svg);
+}
+
+.twitter{
+    background-image: url(../images/icons/twitter.svg);
+}
+.facebook{
+    background-image: url(../images/icons/facebook.svg);
+}
+.linkedin{
+    background-image: url(../images/icons/linkedin.svg);
+}
+
+
+
+.clients h2{
+    color: var(--titles-font-color);
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    
 }
    /* footer */
 
