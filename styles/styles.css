@@ -7,6 +7,7 @@
     --hover-color: #2196F3;
     --button-portfolio-color: #F5F4FA;
     --social-icon-color: #AFB1B8;
+    --follow-bcg-color: rgba(255, 255, 255, 0.1);
 }
 
 body{
@@ -404,8 +405,8 @@ ul{
 .clients-links:focus{
     border-color: var(--hover-color);
 }
-.clients-links:hover.icon-logo,
-.clients-links:focus.icon-logo{
+.clients-links:hover .icon-logo,
+.clients-links:focus .icon-logo{
     fill: var(--hover-color);
 }
 
@@ -416,6 +417,9 @@ ul{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-bcg-color);
+}
+.logo{
+    font-style: normal;
 }
 .address-list{
     margin-top: 20px;
@@ -445,6 +449,54 @@ ul{
 .address-text{
     color: #ffffff;
 }
+
+.footer-box{
+    display: flex;
+    align-items: center;
+}
+.follow-list{
+    display: flex;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.follow-list .svg{
+    background-color: var(--follow-bcg-color);
+    fill: #ffffff;
+    border-radius: 50%;
+}
+.foot-insta:hover,
+.foot-insta:focus {
+    background-color: var(--hover-color);
+}
+.foot-twitter:hover,
+.foot-twitter:focus {
+    background-color: var(--hover-color);  
+}
+.foot-facebook:hover,
+.foot-facebook:focus {
+    background-color: var(--hover-color);
+}
+.foot-linkedin:hover,
+.foot-linkedin:focus {
+    background-color: var(--hover-color);
+}
+.follow-list li + li{
+    margin-left: 10px;
+}
+.follow{
+    margin-left: 70px;
+}
+.follow h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
 
 
 /* PORTFOLIO */
