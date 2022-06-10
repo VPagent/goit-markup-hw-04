@@ -139,6 +139,8 @@ ul{
     padding-top: 200px;
     padding-bottom: 200px;
     min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 
     color: #ffffff;
     text-align: center;
@@ -157,6 +159,8 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .hero-button{
@@ -210,6 +214,7 @@ ul{
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 30px;
+    justify-content: center;
     height: 120px;
     width: 100%;
 }
